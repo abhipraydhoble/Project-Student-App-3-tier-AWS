@@ -156,14 +156,14 @@ yum install java -y
 ````
 
 ````
-curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.109/bin/apache-tomcat-9.0.109.tar.gz
+curl -O https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.111/bin/apache-tomcat-9.0.111.tar.gz
 ````
 ````
-tar -xzvf /apache-tomcat-9.0.109.tar.gz -C /opt/
+tar -xzvf /apache-tomcat-9.0.111.tar.gz -C /opt/
 ````
 **go to webapps dir and download .war file(application)**
 ````
-cd /opt/apache-tomcat-9.0.109/webapps
+cd /opt/apache-tomcat-9.0.111/webapps
 ````
 ````
 curl -O https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war
@@ -177,7 +177,7 @@ curl -O https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar
 ````
 ### $\color{magenta} \textbf{ MODIFY \ context.xml}$
 ````
-cd apache-tomcat-9.0.107/conf
+cd apache-tomcat-9.0.111/conf
 ````
 ````
 vim context.xml
